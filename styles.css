@@ -155,6 +155,12 @@ a {
   font-size: 1.08rem;
 }
 
+.hero-kicker {
+  margin: 0.9rem 0 0;
+  color: #dbe7ff;
+  font-weight: 600;
+}
+
 .hero-actions,
 .cta-actions,
 .center-action {

@@ -417,6 +417,48 @@ a {
   align-items: start;
 }
 
+.about-grid {
+  display: grid;
+  grid-template-columns: 0.78fr 1.22fr;
+  gap: 1.4rem;
+  align-items: start;
+}
+
+.founder-portrait-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.founder-portrait-placeholder {
+  min-height: 420px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem;
+  background:
+    radial-gradient(circle at top left, rgba(59, 130, 246, 0.22), transparent 0, transparent 38%),
+    linear-gradient(135deg, rgba(12, 18, 32, 0.98), rgba(17, 24, 39, 0.96));
+}
+
+.founder-portrait-placeholder span {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.founder-portrait-placeholder small {
+  color: var(--muted);
+}
+
+.founder-highlights {
+  margin-top: 1.25rem;
+}
+
 .why-list {
   display: grid;
   gap: 0.9rem;

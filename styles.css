@@ -523,6 +523,7 @@ a {
 @media (max-width: 920px) {
   .hero-grid,
   .why-grid,
+  .about-grid,
   .process-grid,
   .three-up,
   .showcase-grid,
@@ -531,6 +532,12 @@ a {
   .cta-card,
   .hero-stats {
     grid-template-columns: 1fr;
+  }
+
+  .founder-portrait-image {
+    min-height: 340px;
+    max-height: 420px;
+    object-position: center 18%;
   }
 
   .cta-card,
@@ -558,5 +565,13 @@ a {
 
   .menu-toggle {
     display: inline-block;
+  }
+}
+
+@media (max-width: 640px) {
+  .founder-portrait-image {
+    min-height: 280px;
+    max-height: 320px;
+    object-position: center 14%;
   }
 }

@@ -388,13 +388,46 @@ a {
   padding: 1.35rem;
 }
 
+.pricing-heading {
+  margin-inline: auto;
+  text-align: center;
+}
+
 .pricing-grid {
   align-items: stretch;
+  gap: 1.35rem;
 }
 
 .pricing-card {
+  position: relative;
   display: flex;
   flex-direction: column;
+  padding: 1.5rem;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(18, 24, 38, 0.92), rgba(10, 12, 18, 0.94));
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.pricing-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(96, 165, 250, 0.9), transparent);
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(96, 165, 250, 0.26);
+  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.38);
+}
+
+.pricing-card h3 {
+  margin: 0;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
 }
 
 .pricing-topline {
@@ -425,44 +458,73 @@ a {
 
 .pricing-badge {
   color: #08111f;
-  background: linear-gradient(135deg, #93c5fd, #60a5fa);
+  background: linear-gradient(135deg, #bfdbfe, #60a5fa);
 }
 
 .pricing-card-featured {
   border-color: rgba(96, 165, 250, 0.38);
-  background: linear-gradient(180deg, rgba(59, 130, 246, 0.12), rgba(17, 19, 26, 0.88));
+  background: linear-gradient(180deg, rgba(59, 130, 246, 0.14), rgba(17, 19, 26, 0.92));
+  box-shadow: 0 30px 70px rgba(37, 99, 235, 0.12);
 }
 
 .pricing-range {
-  margin: 0.2rem 0 0.3rem;
-  font-size: 1.08rem;
+  margin: 0.35rem 0 0.35rem;
+}
+
+.pricing-range strong {
+  font-size: 1.6rem;
+  letter-spacing: -0.03em;
 }
 
 .pricing-summary {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.9rem;
+  color: #e6eefc;
 }
 
 .pricing-list {
+  list-style: none;
   margin: 0 0 1rem;
-  padding-left: 1.1rem;
+  padding: 0;
   color: var(--muted);
 }
 
+.pricing-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.pricing-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent-2);
+}
+
 .pricing-list li + li {
-  margin-top: 0.35rem;
+  margin-top: 0.38rem;
 }
 
 .pricing-meta {
   margin-top: auto;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.85rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line);
   color: #dbe7ff;
   font-weight: 600;
+}
+
+.pricing-action {
+  width: 100%;
 }
 
 .pricing-note {
   margin: 1rem 0 0;
   color: var(--muted);
   text-align: center;
+}
+
+.pricing-note strong {
+  color: var(--text);
 }
 
 .icon-dot {

@@ -35,7 +35,10 @@ Starter premium homepage concept for `Vortex Labs`.
 ## Trust updates
 - site now uses a founder-led `About` section instead of placeholder testimonials
 - dead social placeholder links were removed from the public footer
-- pricing anchor added: `Projects from CHF 2,500+`
+- pricing is now shown as soft ranges:
+  - `Landing page — CHF 990–1,500`
+  - `Website — CHF 2,500–5,000`
+  - `Automation — CHF 800–2,000`
 
 ## Suggested next steps
 - add real case studies and brand assets

@@ -652,14 +652,14 @@ a {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   overflow: hidden;
-  aspect-ratio: 4 / 4.6;
+  aspect-ratio: 1 / 1.08;
 }
 
 .founder-portrait-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 68% 48%;
+  object-position: 74% 50%;
   display: block;
 }
 
@@ -771,13 +771,13 @@ a {
   }
 
   .founder-portrait-card {
-    max-width: 380px;
+    max-width: 392px;
     margin: 0 auto;
-    aspect-ratio: 1 / 1.06;
+    aspect-ratio: 1 / 1.02;
   }
 
   .founder-portrait-image {
-    object-position: 70% 60%;
+    object-position: 75% 61%;
   }
 
   .cta-card,
@@ -825,11 +825,11 @@ a {
   }
 
   .founder-portrait-card {
-    max-width: 290px;
-    aspect-ratio: 1 / 1;
+    max-width: 300px;
+    aspect-ratio: 1 / 0.98;
   }
 
   .founder-portrait-image {
-    object-position: 72% 66%;
+    object-position: 76% 67%;
   }
 }

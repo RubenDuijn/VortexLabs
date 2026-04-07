@@ -641,9 +641,25 @@ a {
 
 .about-grid {
   display: grid;
-  grid-template-columns: 0.78fr 1.22fr;
-  gap: 1.7rem;
-  align-items: start;
+  grid-template-columns: 0.72fr 1.28fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-copy {
+  max-width: 40rem;
+}
+
+.about-copy h2 {
+  margin: 0 0 0.7rem;
+}
+
+.about-copy p {
+  margin: 0;
+}
+
+.about-copy p + p {
+  margin-top: 0.9rem;
 }
 
 .founder-portrait-card {
@@ -652,8 +668,8 @@ a {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   overflow: hidden;
-  max-width: 360px;
-  aspect-ratio: 1 / 0.82;
+  max-width: 330px;
+  aspect-ratio: 1 / 0.76;
 }
 
 .founder-portrait-image {
@@ -665,7 +681,7 @@ a {
 }
 
 .founder-highlights {
-  margin-top: 1.25rem;
+  margin-top: 1.15rem;
 }
 
 .why-list {
@@ -772,9 +788,9 @@ a {
   }
 
   .founder-portrait-card {
-    max-width: 380px;
+    max-width: 350px;
     margin: 0 auto;
-    aspect-ratio: 1 / 0.8;
+    aspect-ratio: 1 / 0.78;
   }
 
   .founder-portrait-image {
@@ -826,8 +842,8 @@ a {
   }
 
   .founder-portrait-card {
-    max-width: 292px;
-    aspect-ratio: 1 / 0.84;
+    max-width: 272px;
+    aspect-ratio: 1 / 0.8;
   }
 
   .founder-portrait-image {

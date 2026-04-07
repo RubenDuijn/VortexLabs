@@ -94,6 +94,13 @@ a {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  margin-left: auto;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
 }
 
 .site-nav a {
@@ -706,7 +713,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 88% 53%;
+  object-position: 74% 52%;
   display: block;
 }
 
@@ -834,7 +841,7 @@ a {
   }
 
   .founder-portrait-image {
-    object-position: 84% 60%;
+    object-position: 68% 58%;
   }
 
   .cta-card,
@@ -893,6 +900,6 @@ a {
   }
 
   .founder-portrait-image {
-    object-position: 82% 62%;
+    object-position: 58% 60%;
   }
 }

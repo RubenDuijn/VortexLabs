@@ -823,16 +823,18 @@ a {
 
   .about-grid {
     gap: 1rem;
+    justify-items: start;
   }
 
   .founder-portrait-card {
     max-width: 330px;
-    margin: 0 auto;
+    margin: 0;
+    justify-self: start;
     aspect-ratio: 1 / 0.76;
   }
 
   .founder-portrait-image {
-    object-position: 88% 64%;
+    object-position: 84% 60%;
   }
 
   .cta-card,
@@ -885,10 +887,12 @@ a {
 
   .founder-portrait-card {
     max-width: 260px;
+    margin: 0;
+    justify-self: start;
     aspect-ratio: 1 / 0.78;
   }
 
   .founder-portrait-image {
-    object-position: 89% 69%;
+    object-position: 82% 62%;
   }
 }

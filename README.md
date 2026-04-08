@@ -21,6 +21,7 @@ Starter premium homepage concept for `Vortex Labs`.
 ## Positioning note
 - Vortex Labs should be presented as a **growth system builder**, not only as a web designer.
 - Preferred line: `We design, build and automate high-converting digital systems.`
+- German version tone decision: keep it **CH-first + DACH-wide**, clear and premium, and **not overly Swiss**.
 
 ## Files
 - `index.html` — homepage structure
@@ -29,7 +30,7 @@ Starter premium homepage concept for `Vortex Labs`.
 
 ## Contact setup
 - phone: `+41 79 397 21 32`
-- email: `hello@vortexlabs.ch`
+- email: `RubenDuijn@gmail.com` (temporary public contact until the professional address is ready)
 - keep contact actions behind buttons/links on the public site rather than showing raw details as plain text
 
 ## Trust updates

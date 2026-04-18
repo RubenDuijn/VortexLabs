@@ -677,6 +677,11 @@ a {
   padding: 1.3rem;
 }
 
+.showcase-body .text-link {
+  display: inline-flex;
+  margin-top: 0.75rem;
+}
+
 .showcase-tag {
   display: inline-block;
   margin-bottom: 0.65rem;

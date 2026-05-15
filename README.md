@@ -30,11 +30,11 @@ Starter premium homepage concept for `Vortex Labs`.
 
 ## Contact setup
 - phone: `+41 79 397 21 32`
-- email: `RubenDuijn@gmail.com` (temporary public contact until the professional address is ready)
+- email: `ruben@vortexlabs.ch`
 - keep contact actions behind buttons/links on the public site rather than showing raw details as plain text
 
 ## Trust updates
-- site now uses a founder-led `About` section instead of placeholder testimonials
+- site includes a founder-led `About` section and a lightweight testimonial placeholder section
 - dead social placeholder links were removed from the public footer
 - pricing is now shown as soft ranges:
   - `Landing page — CHF 990–1,500`

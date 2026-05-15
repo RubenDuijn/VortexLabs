@@ -163,6 +163,12 @@ a {
   color: var(--text);
 }
 
+.lang-link.is-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .menu-toggle {
   display: none;
   width: 2.5rem;

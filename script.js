@@ -190,11 +190,19 @@ if (languageLinks.length) {
   const savedLanguage = window.localStorage.getItem(languageStorageKey);
   const browserLanguages = navigator.languages || [navigator.language || 'en'];
   const browserPrefersGerman = browserLanguages.some((language) => language.toLowerCase().startsWith('de'));
+  const browserPrefersSpanish = browserLanguages.some((language) => language.toLowerCase().startsWith('es'));
 
   if (isEnglishEntry && (savedLanguage === 'de' || (!savedLanguage && browserPrefersGerman))) {
     const germanUrl = new URL('de.html', window.location.href);
     if (window.location.pathname !== germanUrl.pathname) {
       window.location.replace(germanUrl.href);
+    }
+  }
+
+  if (isEnglishEntry && (savedLanguage === 'es' || (!savedLanguage && !browserPrefersGerman && browserPrefersSpanish))) {
+    const spanishUrl = new URL('es.html', window.location.href);
+    if (window.location.pathname !== spanishUrl.pathname) {
+      window.location.replace(spanishUrl.href);
     }
   }
 }

@@ -191,18 +191,29 @@ if (languageLinks.length) {
   const browserLanguages = navigator.languages || [navigator.language || 'en'];
   const browserPrefersGerman = browserLanguages.some((language) => language.toLowerCase().startsWith('de'));
   const browserPrefersSpanish = browserLanguages.some((language) => language.toLowerCase().startsWith('es'));
+  const browserPrefersDutch = browserLanguages.some((language) => language.toLowerCase().startsWith('nl'));
 
   if (isEnglishEntry && (savedLanguage === 'de' || (!savedLanguage && browserPrefersGerman))) {
-    const germanUrl = new URL('de.html', window.location.href);
+    const germanUrl = new URL('/de/', window.location.origin);
     if (window.location.pathname !== germanUrl.pathname) {
       window.location.replace(germanUrl.href);
     }
   }
 
   if (isEnglishEntry && (savedLanguage === 'es' || (!savedLanguage && !browserPrefersGerman && browserPrefersSpanish))) {
-    const spanishUrl = new URL('es.html', window.location.href);
+    const spanishUrl = new URL('/es/', window.location.origin);
     if (window.location.pathname !== spanishUrl.pathname) {
       window.location.replace(spanishUrl.href);
+    }
+  }
+
+  if (
+    isEnglishEntry &&
+    (savedLanguage === 'nl' || (!savedLanguage && !browserPrefersGerman && !browserPrefersSpanish && browserPrefersDutch))
+  ) {
+    const dutchUrl = new URL('/nl/', window.location.origin);
+    if (window.location.pathname !== dutchUrl.pathname) {
+      window.location.replace(dutchUrl.href);
     }
   }
 }

@@ -23,6 +23,22 @@ Example:
 - [ ] Strong CTA system before adding more sections
 - [ ] Measure outcomes before scaling effort
 
+## Market Positioning Rule
+
+Use this positioning order consistently across website copy, localized pages, and docs:
+
+1. Switzerland first (Swiss-based, Swiss quality).
+2. Core active markets next (DACH, Spain, Netherlands).
+3. Broader coverage last (EU).
+
+Preferred short trust line format:
+
+- Swiss-based. Trusted in Switzerland, DACH, Spain, and the Netherlands, serving clients across the EU.
+
+Localization note:
+
+- Keep the same market order in every language: Switzerland -> DACH -> Spain -> Netherlands -> EU.
+
 ## Phase 0: Quick Wins (today to next 3 days)
 
 Goal: Improve first impression clarity and CTA strength fast.
@@ -31,7 +47,7 @@ Goal: Improve first impression clarity and CTA strength fast.
 - [x] Add one clear primary CTA text across top sections: Book a Strategy Call. (Done: 2026-05-15)
 - [x] Add one supporting CTA: See Our Work. (Done: 2026-05-15)
 - [ ] Add a short "Who this is for" block (3-5 niches).
-- [x] Add one trust sentence near hero CTA: Trusted by founders and premium brands in Switzerland and Spain. (Done: 2026-05-15)
+- [x] Add one trust sentence near hero CTA: Trusted by founders and premium brands in Switzerland, DACH, Spain, and the Netherlands. (Done: 2026-05-15)
 - [ ] Keep animations, but reduce any that affect mobile readability/performance.
 
 ## Phase 1: Conversion Foundation (next 1-2 weeks)

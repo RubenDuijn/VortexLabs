@@ -31,7 +31,7 @@ Goal: Improve first impression clarity and CTA strength fast.
 - [x] Add one clear primary CTA text across top sections: Book a Strategy Call. (Done: 2026-05-15)
 - [x] Add one supporting CTA: See Our Work. (Done: 2026-05-15)
 - [ ] Add a short "Who this is for" block (3-5 niches).
-- [x] Add one trust sentence near hero CTA: Trusted by founders and premium brands in Spain and Switzerland. (Done: 2026-05-15)
+- [x] Add one trust sentence near hero CTA: Trusted by founders and premium brands in Switzerland and Spain. (Done: 2026-05-15)
 - [ ] Keep animations, but reduce any that affect mobile readability/performance.
 
 ## Phase 1: Conversion Foundation (next 1-2 weeks)
